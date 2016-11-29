@@ -13,6 +13,7 @@
 		EE1FD03B1DEC6D6F008ECA8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1FD0391DEC6D6F008ECA8C /* Main.storyboard */; };
 		EE1FD03D1DEC6D6F008ECA8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1FD03C1DEC6D6F008ECA8C /* Assets.xcassets */; };
 		EE1FD0401DEC6D6F008ECA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1FD03E1DEC6D6F008ECA8C /* LaunchScreen.storyboard */; };
+		EE1FD04C1DED926F008ECA8C /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1FD04B1DED926F008ECA8C /* TodoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE1FD03C1DEC6D6F008ECA8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE1FD03F1DEC6D6F008ECA8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE1FD0411DEC6D6F008ECA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1FD04B1DED926F008ECA8C /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TodoItem.swift; path = ../TodoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EE1FD0321DEC6D6F008ECA8C /* fienlute-pset5 */ = {
 			isa = PBXGroup;
 			children = (
+				EE1FD04B1DED926F008ECA8C /* TodoItem.swift */,
 				EE1FD0331DEC6D6F008ECA8C /* AppDelegate.swift */,
 				EE1FD0351DEC6D6F008ECA8C /* MasterViewController.swift */,
 				EE1FD0371DEC6D6F008ECA8C /* DetailViewController.swift */,
@@ -141,6 +144,7 @@
 			files = (
 				EE1FD0381DEC6D6F008ECA8C /* DetailViewController.swift in Sources */,
 				EE1FD0361DEC6D6F008ECA8C /* MasterViewController.swift in Sources */,
+				EE1FD04C1DED926F008ECA8C /* TodoItem.swift in Sources */,
 				EE1FD0341DEC6D6F008ECA8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
